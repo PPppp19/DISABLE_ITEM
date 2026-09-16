@@ -96,7 +96,7 @@ public class UpdateDB2 {
             JSONArray jsonArray = new JSONArray(myJsonData);
 
             String sql =
-                    "UPDATE M3FDBTST.MITMAS " +
+                    "UPDATE M3FDBPRD.MITMAS " +
                     "SET MMSTAT = ? " +
                     "WHERE MMCONO = ? " +
                     "AND MMITNO = ?";
